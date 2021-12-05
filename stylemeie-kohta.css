@@ -1,0 +1,120 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    animation: fadein ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background-image: url("h_tagataust.gif");
+    background-color: #FFF8E8;
+    background-size: cover;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.column {
+	float:left;
+	width: 33.33%;
+	margin: 0px;
+	height: 500px;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+img {
+	height: 200px;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
+#thumbs_up {
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+#img2 {
+    margin: 0px;
+    height:153px;
+    border: 3px solid #111D13
+}
+
+#pildi_kõrval {
+    float: right;
+    margin-right: 30px;
+}
+
+#division1{
+    background-color: #8FB996;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 3px solid #111D13;
+}
+
+h1 {
+    background-image: url("h_tagataust.gif");
+    -webkit-text-stroke: 1px #8FB996;
+    background-size: cover;
+    text-align:center;
+    color: #111D13;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:70px;
+    border: 3px solid #111D13;
+    margin: 30px;
+}
+p {
+    margin: 15px;
+    text-align: center;
+    color: #364d37;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    line-height: 1.1;
+}
+h2 {
+    text-align:center;
+    line-height: 2;
+    color: #111D13;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+}
+li {
+    list-style: square;
+    text-align:center;
+    line-height: 2;
+    color: #D52941;
+    font-family: Georgia;
+    font-size: 150%;
+}
+a {
+    text-align:center;
+    font-size: 26;
+    color: darkred;
+    transition: font-size 0.5s;
+}
+a:hover {
+    font-size: larger;
+    color: #FCD581;
+}
+h3 {
+    text-align:center;
+    color: #D52941;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+}
+.mapouter {
+    position: relative;
+    text-align:right;
+
+    width:638px;
+    height:362px;
+}

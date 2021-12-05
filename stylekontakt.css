@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    animation: fadein ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background-image: url("tagataust_kontaktandmed.gif");
+    background-color: #FFF8E8;
+    background-size: cover;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.column {
+	float:left;
+	width: 43.348%;
+	margin: 50px;
+	height:450px;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+img {
+	border: 5px solid #555;
+}
+
+#division1{
+    border: solid #990D35 10px;
+    background-color: #FFF8E8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 8px 5px;
+}
+
+h1 {
+    text-align:center;
+    color: #990D35;
+    font-family:Georgia;
+    font-size:70px;
+}
+p {
+    margin: 15px;
+    text-align:center;
+    color: darkslategray;
+    font-family: Georgia;
+    font-size: 150%;
+    line-height: 1;
+}
+h2 {
+    text-align:center;
+    line-height: 1.75;
+    color: darkslategray;
+    font-family: Georgia;
+    font-size: 32;
+}
+li {
+    list-style: square;
+    text-align:center;
+    line-height: 2.5;
+    color: #D52941;
+    font-family: Georgia;
+    font-size: 150%;
+}
+a {
+    text-align:center;
+    font-size: 26;
+    color: darkred;
+    transition: font-size 0.5s;
+}
+a:hover {
+    font-size: larger;
+    color: #FCD581;
+}
+h3 {
+    text-align:center;
+    color: #D52941;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+}
+.mapouter {
+    position: relative;
+    text-align:right;
+
+    width:638px;
+    height:362px;
+}

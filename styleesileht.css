@@ -1,0 +1,113 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    animation: fadein ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background-image: url("esileht_tagataust.gif");
+    background-color: #000;
+    background-size: cover;
+    background-position: bottom;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.column {
+	float:center;
+	width: 100%;
+	margin-top: 3%;
+	height:450px;
+}
+
+.column2 {
+    float: left;
+    text-align:center;
+    width:25%;
+    margin-top: 30px;
+    height: 190px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+img {
+	border: 5px solid #555;
+}
+
+h1 {
+    text-align:center;
+    color: #04030F;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:135px;
+    transition: color 0.5s;
+}
+
+h1:hover {
+    color: #5F1A37;
+}
+
+p {
+    margin: 15px;
+    text-align:center;
+    color: #04030F;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+    line-height: 1;
+    transition: color 0.5s;
+}
+
+p:hover {
+    color: #5F1A37;
+}
+
+
+h2 {
+    text-align:center;
+    line-height: 1.75;
+    color: darkslategray;
+    font-family: Georgia;
+    font-size: 32;
+}
+li {
+    list-style: square;
+    text-align:center;
+    line-height: 2.5;
+    color: #D52941;
+    font-family: Georgia;
+    font-size: 150%;
+}
+a {
+    font-size: 26px;
+    color: #04030F;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: font-size 0.5s;
+}
+a:hover {
+    font-size: 36px;
+    color:#5F1A37;
+}
+h3 {
+    text-align:center;
+    color: #D52941;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+}
+.mapouter {
+    position: relative;
+    text-align:right;
+
+    width:638px;
+    height:362px;
+}

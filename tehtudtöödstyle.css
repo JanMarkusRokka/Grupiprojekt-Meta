@@ -124,8 +124,3 @@
       float: none;
     }
   }
-  
-@media screen and (max-width:1080px) {
-    .grid-container {
-        grid-template-columns: auto;
-}

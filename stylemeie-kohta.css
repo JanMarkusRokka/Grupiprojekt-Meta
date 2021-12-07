@@ -25,6 +25,10 @@ body {
 	width: 33.33%;
 	margin: 0px;
 	height: 500px;
+    background-color: #8FB996;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 3px solid #111D13;
 }
 .row:after {
 	content: "";
@@ -49,16 +53,31 @@ img {
     border: 3px solid #111D13
 }
 
+#img3 {
+    margin: 0px;
+    height:153px;
+    border: 3px solid #111D13
+}
+
+#img4 {
+    margin: 0px;
+    height:153px;
+    border: 3px solid #111D13
+}
+
 #pildi_kõrval {
     float: right;
     margin-right: 30px;
 }
 
-#division1{
-    background-color: #8FB996;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border: 3px solid #111D13;
+#pildi_kõrval2 {
+    float: right;
+    margin-right: 30px;
+}
+
+#pildi_kõrval3 {
+    float: right;
+    margin-right: 30px;
 }
 
 h1 {
